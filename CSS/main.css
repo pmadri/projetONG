@@ -67,3 +67,13 @@ nav a:hover, nav a:focus {
     text-align: center;
     margin-bottom: 2rem;
 }
+
+.introducao h2 {
+    color: #2b4a6f;
+    margin-bottom: 1rem;
+}
+
+.introducao p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
