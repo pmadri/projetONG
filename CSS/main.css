@@ -128,3 +128,37 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background: #1d3557;
 }
+
+/* Cartões de necessidades */
+.cards-list, .cartoes-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card {
+    background: #f4f8fc;
+    border: 1px solid #dbe2ea;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
+    padding: 1.2rem 1rem;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.12);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #2b4a6f;
+    margin-bottom: 0.7rem;
+}
+
+.card p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
