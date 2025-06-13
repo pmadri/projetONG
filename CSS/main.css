@@ -163,6 +163,33 @@ form button[type="submit"]:hover {
     font-size: 1rem;
 }
 
+/* Estilização da barra de filtragem */
+
+.filtros {
+    display: flex;
+    gap: 1rem;
+    margin: 1.2rem 0 0.5rem 0;
+    justify-content: center;
+}
+
+.filtros input[type="text"],
+.filtros select {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #bfc9d1;
+    background: #fff;
+    color: #222;
+}
+
+@media (max-width: 700px) {
+    .filtros {
+        flex-direction: column;
+        gap: 0.7rem;
+        align-items: stretch;
+    }
+}
+
 /* Estilização do footer */
 footer {
     text-align: center;
