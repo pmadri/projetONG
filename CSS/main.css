@@ -129,7 +129,7 @@ form button[type="submit"]:hover {
     background: #1d3557;
 }
 
-/* Cartões de necessidades */
+/* Estilização das necesssidades para serem visualizadas em formato de cartão */
 .cards-list, .cartoes-lista {
     display: flex;
     flex-wrap: wrap;
@@ -161,4 +161,14 @@ form button[type="submit"]:hover {
 .card p {
     margin-bottom: 0.5rem;
     font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+    color: #888;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background: none;
 }
