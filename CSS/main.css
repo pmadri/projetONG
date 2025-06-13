@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilização do body */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f9fb;
+    color: #222;
+}
+
