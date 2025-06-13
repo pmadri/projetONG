@@ -22,6 +22,16 @@
     <main class="body-container">
         <section class="necessidades-lista">
             <h2>Necessidades Cadastradas</h2>
+            <div class="filtros">
+                <input type="text" id="pesquisa" placeholder="Pesquisar por título ou descrição..." />
+                <select id="filtroTipo">
+                    <option value="alimentos">Alimentos</option>
+                    <option value="roupas">Roupas</option>
+                    <option value="brinquedos">Brinquedos</option>
+                    <option value="dinheiro">Dinheiro</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
             <div class="cartoes-lista" id="cartoesLista"></div>
         </section>
     </main>
