@@ -22,3 +22,5 @@
 
 ## Contribuidores
 
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/185980568?v=4" width=115><br><sub>Pedro Aguiar</sub>](https://github.com/pmadri)
+
