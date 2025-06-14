@@ -1,7 +1,6 @@
 # projeto ONG
 
 ### Tópicos
-
 :triangular_flag_on_post: [Descrição](#descrição)
 
 :triangular_flag_on_post: [Funcionalidades](#funcionalidades)
@@ -15,6 +14,11 @@
 ## Funcionalidades
 
 ## Tecnologias utilizadas
+- `HTML`
+  
+- `CSS`
+
+- `JavaScript`
 
 ## Contribuidores
 
