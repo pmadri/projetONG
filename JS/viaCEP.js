@@ -45,3 +45,30 @@ const preencherFormulario = (endereco) => {
 }
 
 document.getElementById('cep').addEventListener('focusout', pesquisarCep);
+
+// Função para cadastrar necessidade
+document.getElementById('cadastroForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const necessidade = {
+        nome: document.getElementById('nome').value,
+        tipo: document.getElementById('tipo').value,
+        titulo: document.getElementById('titulo').value,
+        descricao: document.getElementById('descricao').value,
+        cep: document.getElementById('cep').value,
+        rua: document.getElementById('rua').value,
+        numero: document.getElementById('numero').value,
+        bairro: document.getElementById('bairro').value,
+        cidade: document.getElementById('cidade').value,
+        estado: document.getElementById('estado').value,
+        email: document.getElementById('email').value,
+        telefone: document.getElementById('telefone').value
+    };
+
+    const necessidades = JSON.parse(localStorage.getItem('necessidades')) || [];
+    necessidades.push(necessidade);
+    localStorage.setItem('necessidades', JSON.stringify(necessidades));
+
+    alert('Necessidade cadastrada com sucesso!');
+    this.reset();
+});
